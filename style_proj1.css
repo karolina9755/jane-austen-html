@@ -1,0 +1,287 @@
+body
+{
+	color: black;
+    background-image: url("tlo.jpg");
+    font-family: 'Book Antiqua';
+}
+
+h1
+{
+	text-align:center;
+    color: maroon;
+}
+
+h2
+{
+	text-align:left;
+    margin-left: 20px;
+    font-style: italic;
+    font-size:28px;
+}
+
+h3
+{
+	text-align:left;
+    color: indianred;
+    font-size:32px;
+    font-style: italic;
+    font: bold;
+}
+
+h4
+{
+    text-align:center;
+    font-size: 28px;
+    color: indianred;
+    font-style:italic;
+}
+
+
+
+
+
+p
+{
+    font-size: 18px;
+    margin: 15px;
+}
+
+
+
+
+#strona
+{
+    margin     : auto;
+    border     : double saddlebrown;
+    padding    : 0px;
+    width      : 1100px;
+    height     : 1500px;
+}
+
+
+#kol_prawa
+{
+    float:right;
+    width: 900px;
+}
+
+#naglowek
+{	
+	height: 60px;
+    width: 900px;
+    margin  : 0px;
+    border  : none;
+    padding : 0px;
+    background-color:khaki;
+}
+
+#tresc
+{
+    height: 1318px;
+    margin-top : 15px;
+    border  : none;
+    padding : 15px;
+    background-color: ivory;
+    border: dotted pink;
+    overflow: auto;
+}
+
+
+
+#kol_lewa
+{
+    float:left;
+    width: 200px;
+    height:1450px;
+    background: linear-gradient(lightpink,rosybrown);
+    color: maroon;
+}
+
+#obraz
+{
+    width: 100%;
+            
+}
+
+#menu
+{
+	float: left;
+    width: 100%;
+    margin  : 0px;
+    border  : none;
+    padding : 0px;
+}
+
+
+
+#stopka
+{	
+	clear:both;
+    width: 1100px;
+	height: 50px;
+    background-color: rosybrown;
+    margin  : 0px;
+    border  : none;
+    padding : 0px;
+}
+
+
+
+
+
+table
+{
+    margin:auto;
+	border-collapse:collapse;
+	text-align:center;
+    background-color: saddlebrown;
+}
+
+tr, td, th
+{
+	border: 1px solid black;
+}
+
+th
+{
+    font-size: 15px;
+    height: 30px;
+    color: white;
+}
+
+tr.nparz
+{
+    background-color: ivory;
+}
+
+tr.parz
+{
+    background-color: bisque;
+}
+
+
+
+
+p.zrodlo
+{
+    font-size: 14px;
+}
+
+p.stopka
+{
+    color: white;
+    text-align: right;
+    font-size: 14px; 
+    margin: 3px 15px 2px auto;
+}
+
+
+
+
+label
+{
+    font-size:16px;
+    margin: 25px;
+}
+
+textarea
+{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+input
+{
+    margin-left: 25px;
+}
+
+
+
+
+
+a:link.menu
+{
+    font:large;
+    color: maroon;
+}
+
+a:visited.menu
+{
+    font:large;
+    color: indianred;
+}
+
+a:hover.menu
+{
+    font:large;
+    color: ivory;
+}
+
+
+
+
+.book
+{
+    font-family:'Courier New';
+    font-size: 16px;
+    margin: 30px;
+}
+
+h2.book
+{
+    font-size: 20px;
+    position:center;
+    font: bolder;
+}
+
+.right
+{
+    float:right;
+    margin-right: 50px;
+}
+
+span.tytul
+{
+    font-style: italic;
+    font: bolder;
+    color: palevioletred;
+}
+
+span.kursywa
+{
+    font-style: italic;
+}
+
+
+
+
+
+#jane
+{
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 8px;
+    border: double ivory;
+}
+
+img.galeria
+{
+    width: 100px;
+    margin: 5px;
+}
+
+#zdjecie
+ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+ }
+
+#animacja
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

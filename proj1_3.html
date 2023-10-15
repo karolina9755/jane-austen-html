@@ -1,0 +1,95 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl-PL">
+
+<head>
+    <title>Kontakt</title>
+    <meta charset="UTF-8" />
+    <link rel="Stylesheet" href="style_proj1.css" />
+   
+</head>
+
+<body>
+    
+    <div id="strona">
+
+        <div id="kol_lewa">
+            <div id="menu">
+                <img src="jane.jpg" alt="jane_austen" title="Jane Austen" id="jane" />
+                <h2>Menu:</h2>
+                <ul class="1">
+                    <li><a class="menu" href="proj1_1.html">O pisarce</a></li>
+                    <li><a class="menu" href="proj1_2.html">Powieści</a></li>
+                    <li>
+                        <a class="menu" href="proj1_4.html">Do poczytania- <br /> "Pride and Prejudice"</a>
+                        <ul>
+                            <li><a class="menu" href="proj1_4.html#ch1">Chapter I</a></li>
+                            <li><a class="menu" href="proj1_4.html#ch2">Chapter II</a></li>
+                            <li><a class="menu" href="proj1_4.html#ch3">Chapter III</a></li>
+                            <li><a class="menu" href="proj1_4.html#zrodlo">Źródło</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu" href="proj1_3.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+
+         <div id="kol_prawa"> 
+
+             <div id="naglowek">
+                 <h1> Jane Austen</h1>
+             </div>
+
+            <div id="tresc">
+                <h3>Kontakt</h3>
+                <p>Jeśli masz jakiekolwiek pytania, wystarczy wypełnić formularz kontaktowy poniżej:</p>
+
+                <br/> 
+                <form action="mailto:austen@gmail.com" method="post">
+                    <label>Imię: <input name="imie" /></label><br />
+                    <label>Nazwisko: <input name="nazwisko" /></label><br />
+                    <label>Płeć: </label>
+                    <input type="radio" name="plec" value="kobieta" /> Kobieta   
+                    <input type="radio" name="plec" value="mężczyzna" /> Mężczyzna <br/>
+                    <br />
+                    <label>Ulubiona książka:</label>
+                    <select>
+                        <option value="brak"> wybierz z listy </option>
+                        <option value="rozwazna"> "Rozważna i Romantyczna" </option>
+                        <option value="duma"> "Duma i Uprzedzenie" </option>
+                        <option value="mansfield"> "Mansfield Park" </option>
+                        <option value="emma"> "Emma" </option>
+                        <option value="northanger"> "Northanger Abbey" </option>
+                        <option value="perswazje"> "Perswazje" </option>  
+                        <option value="wszystkie"> Wszystkie! </option>                      
+                    </select>
+                    <br /> <br/>
+                    <label>Temat wiadomości: <input name="temat" /></label><br />
+                    <textarea name="message" style="width: 365px; height: 132px">Wpisz tekst wiadomości</textarea> <br />
+                    <br/> 
+                    <label>Chcę dołączyć do Klubu Jane Austen.<input type="checkbox" name="klub"/></label>
+                    <br/>
+                    <label>Tajne hasło klubu:<input type="password" name="haslo"/></label>
+                    <br/><br/>
+                    <input type="reset" value="Wyczyść" />
+                    <input type="submit" value="Wyślij" />
+                </form>
+                <br/> <br/><br/>
+                <p>Dodatkowo, w razie problemów, prosimy o kontakt na adres:<br/>
+                <a href="austen.kontakt@gmail.com?subject=Jane_Austen">austen.kontakt@gmail.com</a>
+                </p>
+
+                <img src="grafika.png" alt="książka" title="książka" id="animacja" />
+                
+                </div>
+        </div>
+
+        <div id="stopka">
+            <p class="stopka">Autor strony: Karolina Kacprzycka</p>
+            <p class="stopka">Data utworzenia: 2016-11-24</p>
+        </div>
+   
+    </div>
+       
+</body>
+
+</html>
